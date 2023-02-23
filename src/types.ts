@@ -14,6 +14,8 @@ export interface RobotStructure {
 export interface UserCredentials {
   username: string;
   password: string;
+  avatar: string;
+  email: string;
 }
 
 export type RobotsStructure = RobotStructure[];

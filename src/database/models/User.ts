@@ -15,6 +15,10 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  avatar: {
+    type: Object,
+    required: true,
+  },
 });
 
 const User = model("User", userSchema, "users");
